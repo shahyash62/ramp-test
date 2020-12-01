@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ramp-test/static/css/main.10a9ce76.chunk.css",
-    "main.js": "/ramp-test/static/js/main.08b06281.chunk.js",
-    "main.js.map": "/ramp-test/static/js/main.08b06281.chunk.js.map",
+    "main.js": "/ramp-test/static/js/main.969dd62c.chunk.js",
+    "main.js.map": "/ramp-test/static/js/main.969dd62c.chunk.js.map",
     "runtime-main.js": "/ramp-test/static/js/runtime-main.afe2aa9a.js",
     "runtime-main.js.map": "/ramp-test/static/js/runtime-main.afe2aa9a.js.map",
     "static/js/2.51205713.chunk.js": "/ramp-test/static/js/2.51205713.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.afe2aa9a.js",
     "static/js/2.51205713.chunk.js",
     "static/css/main.10a9ce76.chunk.css",
-    "static/js/main.08b06281.chunk.js"
+    "static/js/main.969dd62c.chunk.js"
   ]
 }
