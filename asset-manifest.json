@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ramp-test/static/css/main.5c4c4d0f.chunk.css",
+    "main.js": "/ramp-test/static/js/main.0f093f76.chunk.js",
+    "main.js.map": "/ramp-test/static/js/main.0f093f76.chunk.js.map",
+    "runtime-main.js": "/ramp-test/static/js/runtime-main.afe2aa9a.js",
+    "runtime-main.js.map": "/ramp-test/static/js/runtime-main.afe2aa9a.js.map",
+    "static/js/2.b411b57c.chunk.js": "/ramp-test/static/js/2.b411b57c.chunk.js",
+    "static/js/2.b411b57c.chunk.js.map": "/ramp-test/static/js/2.b411b57c.chunk.js.map",
+    "static/js/3.4bb885fc.chunk.js": "/ramp-test/static/js/3.4bb885fc.chunk.js",
+    "static/js/3.4bb885fc.chunk.js.map": "/ramp-test/static/js/3.4bb885fc.chunk.js.map",
+    "index.html": "/ramp-test/index.html",
+    "static/css/main.5c4c4d0f.chunk.css.map": "/ramp-test/static/css/main.5c4c4d0f.chunk.css.map",
+    "static/js/2.b411b57c.chunk.js.LICENSE.txt": "/ramp-test/static/js/2.b411b57c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.afe2aa9a.js",
+    "static/js/2.b411b57c.chunk.js",
+    "static/css/main.5c4c4d0f.chunk.css",
+    "static/js/main.0f093f76.chunk.js"
+  ]
+}
