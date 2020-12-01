@@ -69,6 +69,10 @@ function App() {
                 break;
         }
     };
+
+    const testArray = ['Number array', 1, 0, 2, 'with strings'];
+    const testFalsy = '';
+    const testAny = 'Hello world!';
     return (
         <div className={styles.App}>
             <div className={styles.card}>
@@ -78,6 +82,18 @@ function App() {
                     <option value="other">Other (number)</option>
                 </select>
                 <Display input={input} />
+            </div>
+            <div className={styles.card}>
+                <h3 className={styles.h3}>Array</h3>
+                <Display input={testArray} />
+            </div>
+            <div className={styles.card}>
+                <h3 className={styles.h3}>Falsy</h3>
+                <Display input={testFalsy} />
+            </div>
+            <div className={styles.card}>
+                <h3 className={styles.h3}>Any other</h3>
+                <Display input={testAny} />
             </div>
         </div>
     );
