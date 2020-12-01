@@ -2,13 +2,16 @@ import React, { useState, useEffect } from 'react';
 import styles from './App.module.css';
 
 function Time() {
-    const [time, setTime] = useState(new Date().toLocaleTimeString());
+    const [time, setTime] = useState(null);
     useEffect(() => {
+        const date = new Date();
+        setTime(`${date.toLocaleDateString()}, ${date.toLocaleTimeString()}`);
         const timer = setInterval(() => {
-            setTime(new Date().toLocaleTimeString());
+            const newDate = new Date();
+            setTime(`${newDate.toLocaleDateString()}, ${newDate.toLocaleTimeString()}`);
         }, 1000);
         return () => clearInterval(timer);
-    });
+    }, [setTime]);
 
     return <div>{time}</div>;
 }
